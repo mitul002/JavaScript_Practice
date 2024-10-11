@@ -1,0 +1,9 @@
+function outer(Name) 
+{
+    function inner()
+    {
+      console.log(`Hello ${Name}`);
+    }
+    return inner();
+}
+outer('matt');

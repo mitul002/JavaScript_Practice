@@ -18,3 +18,13 @@ let add = function(x,y)
 }
 console.log(add(5,10))
 console.log(add(4,6))
+
+
+//Or,
+//Arrow function:
+
+let sub = (x,y) => x-y
+console.log(sub(15,10))
+console.log(add(4,6))
+
+
