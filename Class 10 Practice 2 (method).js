@@ -1,7 +1,7 @@
 const PhoneInfo ={
 
     brand:'Samsung',
-    model: 'ultra',
+    model: 's24 ultra',
     price: 110000,
 
 // Method
