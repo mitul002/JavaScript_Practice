@@ -8,7 +8,7 @@ const PhoneInfo=
     'No of Camera': 4,
     Megapixel: [`48mp`, `12mp`, `12mp` ],
     Telephoto_Lense: false,
-}
+};
 
 console.log(PhoneInfo)
 

@@ -22,6 +22,10 @@ const obj3=
 const marge={...obj1, ...obj2, ...obj3}
 console.log(marge)
 
+//Or,
+const marge2= Object.assign({},obj1,obj2,obj3)
+console.log(marge)
+
 
 //Object inside object
 
