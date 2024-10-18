@@ -14,7 +14,7 @@
  ! let is not hosted
  */
 
-
+//This file won't run
 
  // We can reassign let valiable
 let a = 10;
@@ -23,7 +23,7 @@ a = 11;
 console.log(a);
 
 
-// We can't redeclare let valiable
+// We can't redeclare let valiable. so, this file won't run
 
 
 let a = 'Bangladesh';
@@ -38,7 +38,7 @@ console.log(a);
   console.log(a);
   console.log(blocked);
 }
-console.log(blocked);
+console.log(blocked); //It's wrong
 
 
 
@@ -51,32 +51,3 @@ console.log(city1);
 console.log(city2);
 let city2 = 'Sylhet';
 
-
-
-
-
-/*
- * const Variable
- ! You can not re declare
- ! You can not re assaign
- ? Block Scooped
- ! const is not hosted
- */
- 
- 
- 
- // We can't reassign const valiable
-const a = 10;
-a = 11;
-
-
-//But we can change variable value in this way:
-
-const person = {
-  firstName: 'Ali',
-  age: 30,
-};
-person.country = 'Bangladesh';
-person.age = 32;
-
-console.log(person);

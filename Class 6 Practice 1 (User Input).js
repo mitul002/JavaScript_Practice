@@ -1,6 +1,8 @@
 const prompt = require('prompt-sync')();
 
 
+//Take User Input
+
 // Prompt the user to enter two numbers
 let num1 = prompt("Please enter number 1:");
 let num2 = prompt("Please enter number 2:");

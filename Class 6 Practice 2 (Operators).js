@@ -88,8 +88,8 @@ let t2 = k>j ?true:false;
 console.log(t2)
 
 
-//Typeof Operator
-console.log(" typeof Operator")
+//Typeof 
+console.log("typeof")
 
 let name="john"
 console.log(typeof(name))
