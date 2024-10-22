@@ -22,8 +22,8 @@ console.log(PhoneInfo.Megapixel)
 console.log(PhoneInfo.Telephoto_Lense)
 
 //Upfate any value
-PhoneInfo.model=`Redmi Note 11`;
-console.log(PhoneInfo.model)
+PhoneInfo.Model=`Redmi Note 11`;
+console.log(PhoneInfo.Model)
 
 
 //Show keys only 

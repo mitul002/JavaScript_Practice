@@ -5,8 +5,8 @@ function intro(name, age, gender="person")
     console.log(`Hello, I am ${name}, a ${age} years old ${gender}`)
 }
 
-intro("mitul",24)
-intro("sanjida", 23, "girl")
+intro("mitul",24 ,"boy")
+intro("🌞xida", 23)
 
 
 //Or,
@@ -27,4 +27,6 @@ let sub = (x,y) => x-y
 console.log(sub(15,10))
 console.log(add(4,6))
 
+
+let div = (k,l) =>k-l
 
