@@ -1,4 +1,7 @@
-let upper = 6;
-let lower =1;
+function Roll()
+{
+    let randomNumber = Math.ceil(Math.random()*6);
+    let imageSource = "images/"+randomNumber+".png";
+    document.getElementById('dice').src =imageSource;
+}
 
-console.log(Math.ceil(Math.random().toFixed(2)*6))
