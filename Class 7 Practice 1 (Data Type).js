@@ -27,6 +27,7 @@ let name="James";
 console.log(`He is ${name}`)
 console.log(typeof(name))
 
+console.log("=====================================")
 //Number/Integer Data Type
 
 /*
@@ -42,6 +43,8 @@ console.log(age1 + age2 + name + age1 + age2);
 let a = 9999999999999999;
 console.log(typeof(a));
 
+
+console.log("=====================================")
 //BigInt Data Type
 
 /*
@@ -65,7 +68,7 @@ it is not possible
 let sum = b+c;
 console.log(sum)
 
-
+console.log("=====================================")
 
 
 
@@ -85,6 +88,8 @@ console.log(typeof(x));
 //Null Data Type
 let y= null
 console.log(typeof(y));
+
+console.log("=====================================")
 
 
 //Array/Object Data Type

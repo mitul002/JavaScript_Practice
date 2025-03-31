@@ -24,7 +24,7 @@ console.log(marge)
 
 //Or,
 const marge2= Object.assign({},obj1,obj2,obj3)
-console.log(marge)
+console.log(marge2)
 
 
 //Object inside object

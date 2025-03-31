@@ -1,7 +1,10 @@
 // Javascript Strict mode
+// Strict mode is a way to introduce better error-checking into your code.
 'use strict';
 //we can also use strict mode in a particular block
 
+
+// Here all code will show error because we are using strict mode
 x = 10;
 console.log(x);
 

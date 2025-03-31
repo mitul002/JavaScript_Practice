@@ -19,7 +19,7 @@ function onLoad()
 {
     alert("loading... press OK")
     document.getElementById('txt2').innerHTML ="Website loaded"
-}
+} 
 
 function windowResize()
 {
