@@ -84,7 +84,7 @@ console.log(" Ternary Operator")
 let t1 = j>k ?true:false;
 console.log(t1)
 
-let t2 = k>j ?true:false;
+let t2 = k>j ? "Number 1 is larger" : "Number 2 is larger";
 console.log(t2)
 
 

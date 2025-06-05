@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Function</title>
     <style>
-        .btn{
+        #btn1, #btn2 {
             font-size: 20px;
             font-weight: bold;
             color: white;
@@ -14,14 +14,21 @@
             padding: 20px 35px;
             border: 2px solid #919191;
             border-radius: 10px;
+            cursor: pointer;   
         }
+        
+        #btn1:active, #btn2:active {
+            transform: scale(0.95); /* Scale down on click */
+        }
+
+       
 
     </style>
 </head>
 <body>
 
-    <button class="btn", id="btn1">Subscibe</button>
-    <button class="btn", id="btn2" style="background: dodgerblue;">Like</button>
+    <button  id="btn1">Subscibe</button>
+    <button id="btn2" style="background: dodgerblue;" >Like</button>
     <script src="script.js"></script>
     
 </body>

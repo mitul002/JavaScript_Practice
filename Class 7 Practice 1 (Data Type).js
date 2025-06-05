@@ -81,7 +81,7 @@ console.log(typeof(false));
 
 
 // Undefined Data Type
-let x
+let x 
 console.log(typeof(x));
 
 
@@ -123,7 +123,7 @@ let studentInfo = {
 }
 
 console.log(studentInfo);
-console.log(typeof studentInfo);
+console.log(typeof (studentInfo));
 
 
 

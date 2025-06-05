@@ -28,5 +28,10 @@ console.log(sub(15,10))
 console.log(add(4,6))
 
 
-let div = (k,l) =>k-l
+//Or,
+let mul = (x,y) => {
+    return(x*y);
+}
+console.log(mul(4,2))
+
 
